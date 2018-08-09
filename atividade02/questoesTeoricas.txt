@@ -1,28 +1,29 @@
-- O que é o teste de software? Qual a melhor definição?
-Teste verifica e valida o funcionamento das funções de forma estruturada, garantindo a não existência de bugs.
+- O que Ã© o teste de software? Qual a melhor definiÃ§Ã£o?
+Teste verifica e valida o funcionamento das funÃ§Ãµes de forma estruturada, garantindo a nÃ£o existÃªncia de bugs.
 
-- O que é teste de unidade, integração e sistema?
-Unidade: está voltado a testar métodos e funções, pequenas caixas, de forma independente.
-Integração: está voltado a comunicação entre as unidades do software. (na prática, quando você depende de outros sistemas externos).
-Sistema: teste da perspectiva do usuário, via interface gráfica.
+- O que Ã© teste de unidade, integraÃ§Ã£o e sistema?
+Unidade: estÃ¡ voltado a testar mÃ©todos e funÃ§Ãµes, pequenas caixas, de forma independente.
+IntegraÃ§Ã£o: estÃ¡ voltado a comunicaÃ§Ã£o entre as unidades do software. (na prÃ¡tica, quando vocÃª depende de outros sistemas externos).
+Sistema: teste da perspectiva do usuÃ¡rio, via interface grÃ¡fica.
 
-- O que é um caso de teste? Dê exemplos.
-Caso de teste é uma entrada com saídas esperadas em condições de execução.
-Um exemplo é testar as funções de uma calculadora.
+- O que Ã© um caso de teste? DÃª exemplos.
+Caso de teste Ã© uma entrada com saÃ­das esperadas em condiÃ§Ãµes de execuÃ§Ã£o.
+Um exemplo Ã© testar as funÃ§Ãµes de uma calculadora.
 
-- Qual a diferença entre um teste manual e um teste automatizado?
-Teste manual é feito por uma pessoa, e o automatizado por uma máquina.
+- Qual a diferenÃ§a entre um teste manual e um teste automatizado?
+Teste manual Ã© feito por uma pessoa, e o automatizado por uma mÃ¡quina.
 
-- Explique a diferença entre o teste caixa-branca e o teste caixa-preta.
-Caixa branca (estrutural) o testador tem acesso ao código,
-Caixa preta (funcional) o testador não tem acesso ao código.
+- Explique a diferenÃ§a entre o teste caixa-branca e o teste caixa-preta.
+Caixa branca (estrutural) o testador tem acesso ao cÃ³digo,
+Caixa preta (funcional) o testador nÃ£o tem acesso ao cÃ³digo.
 
-- O que é um teste de regressão?
-Um teste feito nas versões mais recentes para garantir que novos defeitos não apareçam no que já foi testado.
+- O que Ã© um teste de regressÃ£o?
+Um teste feito nas versÃµes mais recentes para garantir que novos defeitos nÃ£o apareÃ§am no que jÃ¡ foi testado.
 
-- O que é um critério de teste? Cite exemplos.
-Critérios são formas de testar o software.
-Particionamento de Equivalência, Caixa Branca, Caixa Preta
+- O que Ã© um critÃ©rio de teste? Cite exemplos.
+CritÃ©rios sÃ£o formas de testar o software.
+Caixa Branca: cobertura do cÃ³digo e das branches.
+Caixa Preta: Particionamento de EquivalÃªncia, AnÃ¡lise de valor limite.
 
 
 Adolpho Cavalcanti
