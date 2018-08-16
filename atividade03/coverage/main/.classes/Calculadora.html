@@ -1,0 +1,116 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: Calculadora</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">main</a> ]
+</div>
+
+<h1>Coverage Summary for Class: Calculadora (main)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Calculadora</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (2/ 2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (6/ 6)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package main;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import java.util.List;
+<i>4</i>&nbsp;
+<i>5</i>&nbsp;import static java.util.Arrays.asList;
+<i>6</i>&nbsp;
+<b class="fc"><i>7</i>&nbsp;public class Calculadora {</b>
+<i>8</i>&nbsp;
+<i>9</i>&nbsp;    public List&lt;Proposta&gt; calcular(float salario, float valorDoEmprestimo) {
+<i>10</i>&nbsp;
+<b class="fc"><i>11</i>&nbsp;        if (salario &lt;= 1000) {</b>
+<b class="fc"><i>12</i>&nbsp;            return asList(</b>
+<i>13</i>&nbsp;                    new Proposta(2 * valorDoEmprestimo, 2),
+<i>14</i>&nbsp;                    new Proposta(2 * valorDoEmprestimo, 3)
+<i>15</i>&nbsp;            );
+<b class="fc"><i>16</i>&nbsp;        } else if (salario &lt;= 5000) {</b>
+<b class="fc"><i>17</i>&nbsp;            return asList(</b>
+<i>18</i>&nbsp;                    new Proposta(1.3f * valorDoEmprestimo, 2),
+<i>19</i>&nbsp;                    new Proposta(1.5f * valorDoEmprestimo, 4),
+<i>20</i>&nbsp;                    new Proposta(1.5f * valorDoEmprestimo, 10)
+<i>21</i>&nbsp;            );
+<i>22</i>&nbsp;        } else {
+<b class="fc"><i>23</i>&nbsp;            return asList(</b>
+<i>24</i>&nbsp;                    new Proposta(1.1f * valorDoEmprestimo, 2),
+<i>25</i>&nbsp;                    new Proposta(1.3f * valorDoEmprestimo, 4),
+<i>26</i>&nbsp;                    new Proposta(1.3f * valorDoEmprestimo, 10),
+<i>27</i>&nbsp;                    new Proposta(1.4f * valorDoEmprestimo, 20)
+<i>28</i>&nbsp;            );
+<i>29</i>&nbsp;        }
+<i>30</i>&nbsp;
+<i>31</i>&nbsp;    }
+<i>32</i>&nbsp;
+<i>33</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2018-08-16 20:23</div>
+</div>
+</body>
+</html>
