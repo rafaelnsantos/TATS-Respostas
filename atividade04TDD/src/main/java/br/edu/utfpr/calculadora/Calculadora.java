@@ -9,6 +9,13 @@ public class Calculadora {
                     salario *= 1 - 0.2f;
                 else
                     salario *= 1 - 0.1f;
+            break;
+            case DBA:
+                if (funcionario.getSalario() >= 2000)
+                    salario *= 1 - 0.25f;
+                else
+                    salario *= 1 - 0.15f;
+            break;
         }
         return salario;
     }
