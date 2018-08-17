@@ -10,12 +10,20 @@ public class Calculadora {
                 else
                     salario *= 1 - 0.1f;
             break;
+
             case DBA:
             case TESTADOR:
                 if (funcionario.getSalario() >= 2000)
                     salario *= 1 - 0.25f;
                 else
                     salario *= 1 - 0.15f;
+            break;
+
+            case GERENTE:
+                if (funcionario.getSalario() >= 5000)
+                    salario *= 1 - 0.3f;
+                else
+                    salario *= 1 - 0.2f;
             break;
         }
         return salario;

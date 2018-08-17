@@ -1,5 +1,5 @@
 package br.edu.utfpr.calculadora;
 
 public enum Cargo {
-    DESENVOLVEDOR, DBA, TESTADOR
+    DESENVOLVEDOR, DBA, TESTADOR, GERENTE;
 }
