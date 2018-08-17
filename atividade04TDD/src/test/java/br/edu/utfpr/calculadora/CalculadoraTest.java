@@ -30,15 +30,15 @@ public class CalculadoraTest {
 
     @Test
     public void salarioDBAMaior2000(){
-        f = new Funcionario(Cargo.DBA, 1000f);
+        f = new Funcionario(Cargo.DBA, 10000f);
 
-        assertEquals(750f, c.calcularSalarioLiquido(f), 0.1f);
+        assertEquals(7500f, c.calcularSalarioLiquido(f), 0.1f);
     }
 
     @Test
     public void salarioDBAMenor2000(){
-        f = new Funcionario(Cargo.DBA, 10000f);
+        f = new Funcionario(Cargo.DBA, 1000f);
 
-        assertEquals(8500f, c.calcularSalarioLiquido(f), 0.1f);
+        assertEquals(850f, c.calcularSalarioLiquido(f), 0.1f);
     }
 }
