@@ -11,6 +11,7 @@ public class Calculadora {
                     salario *= 1 - 0.1f;
             break;
             case DBA:
+            case TESTADOR:
                 if (funcionario.getSalario() >= 2000)
                     salario *= 1 - 0.25f;
                 else
