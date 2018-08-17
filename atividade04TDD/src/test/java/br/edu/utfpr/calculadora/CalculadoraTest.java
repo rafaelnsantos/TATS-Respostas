@@ -41,4 +41,18 @@ public class CalculadoraTest {
 
         assertEquals(850f, c.calcularSalarioLiquido(f), 0.1f);
     }
+
+    @Test
+    public void salarioTestadorMaior2000(){
+        f = new Funcionario(Cargo.TESTADOR, 10000f);
+
+        assertEquals(7500f, c.calcularSalarioLiquido(f), 0.1f);
+    }
+
+    @Test
+    public void salarioTestadorMenor2000(){
+        f = new Funcionario(Cargo.TESTADOR, 1000f);
+
+        assertEquals(850f, c.calcularSalarioLiquido(f), 0.1f);
+    }
 }
